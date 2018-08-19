@@ -4,7 +4,7 @@ using McMaster.Extensions.CommandLineUtils;
 
 namespace ConsoleTips
 {
-    [Command(Name = "di", Description = "Sample project")]
+    [Command(Name = "dotnet <ConsoleTips.dll Path>", Description = "Sample project")]
     //[HelpOption("--my-custom-help-option")] // Change from default --help to --my-custom-help-option
     class Program
     {
